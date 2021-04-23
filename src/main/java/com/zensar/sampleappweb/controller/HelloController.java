@@ -23,6 +23,6 @@ public class HelloController {
 	
 	@RequestMapping("/greet")
 	public String greet() {
-		return "<h1>Good Morning/h1>";
+		return "<h1>Good Morning user/h1>";
 	}
 }
